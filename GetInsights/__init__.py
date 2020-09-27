@@ -5,7 +5,7 @@ from pprint import pprint
 import requests
 import json
 
-subscription_key = "bd4280022f694cd4a90e64ee5ebe909b"
+subscription_key = ""
 endpoint = "https://gene-pool-text-analytics.cognitiveservices.azure.com"
 
 def main(req: func.HttpRequest) -> func.HttpResponse:
